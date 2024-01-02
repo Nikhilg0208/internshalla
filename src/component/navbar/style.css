@@ -1,0 +1,67 @@
+.sciastra_icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.List {
+  margin-top: 15px;
+  margin-left: 60px;
+  display: flex;
+  padding-left: 0px;
+  flex-direction: row;
+  list-style-type: none;
+  width: 850px;
+  height: 47px;
+  font-family: sans-serif;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.btn {
+  width: 105px;
+  height: 35px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 0 2rem;
+  border: none;
+  background: linear-gradient(to right, #234eb0, #b656e2);
+  border-radius: 1.5rem;
+  font-size: medium;
+  margin-right: 40px;
+}
+.Li {
+  cursor: pointer;
+  transition: transform 0.4s ease-out;
+  width: 100px;
+}
+.Li:hover {
+  transform: scale(1.1);
+  .hovering {
+    display: block;
+    margin-left: 10px;
+    background-color: #ffffff1b;
+  }
+}
+.hovering {
+  margin-top: 5px;
+  display: none;
+  width: 120px;
+  line-height: 20px;
+}
+
+.temp1:hover {
+  background-color: black;
+}
+.personalone {
+  width: 80px;
+}
+.personalthree {
+  width: 100px;
+}
